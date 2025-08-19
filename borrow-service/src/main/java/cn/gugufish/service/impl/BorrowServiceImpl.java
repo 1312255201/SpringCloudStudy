@@ -6,6 +6,8 @@ import cn.gugufish.entity.User;
 import cn.gugufish.entity.UserBorrowDetail;
 import cn.gugufish.mapper.BorrowMapper;
 import cn.gugufish.service.BorrowService;
+import cn.gugufish.service.client.BookClient;
+import cn.gugufish.service.client.UserClient;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -20,16 +22,18 @@ public class BorrowServiceImpl implements BorrowService {
     BorrowMapper mapper;
 
     @Resource
-    RestTemplate template;
+    UserClient userClient;
 
+    @Resource
+    BookClient bookClient;
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
 
-        User user = template.getForObject("http://userservice/user/"+uid, User.class);
+        User user = userClient.getUserById(uid);
         List<Book> bookList = borrow
                 .stream()
-                .map(b -> template.getForObject("http://bookservice/book/"+b.getBid(), Book.class))
+                .map(b -> bookClient.getBookById(b.getBid()))
                 .collect(Collectors.toList());
         return new UserBorrowDetail(user, bookList);
     }
