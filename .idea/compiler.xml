@@ -13,12 +13,17 @@
         <module name="borrow-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="borrow-service (1)" target="1.8" />
+      <module name="eureka-server" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloudStudy" options="" />
       <module name="book-service" options="-parameters" />
       <module name="borrow-service" options="-parameters" />
+      <module name="borrow-service (1)" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>

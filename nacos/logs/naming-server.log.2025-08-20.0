@@ -1,0 +1,184 @@
+2025-08-20 10:57:39,365 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-08-20 10:57:39,365 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-08-20 10:57:39,365 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-08-20 10:57:39,365 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-08-20 10:57:39,639 INFO Load instance extension handler []
+
+2025-08-20 10:58:03,325 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-08-20 10:58:03,327 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
+2025-08-20 10:58:27,321 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-08-20 10:58:27,321 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-08-20 10:58:27,322 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-08-20 10:58:27,322 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-08-20 10:58:27,552 INFO Load instance extension handler []
+
+2025-08-20 10:59:13,828 INFO Client connection 1755658753704_127.0.0.1_64868 connect
+
+2025-08-20 10:59:13,879 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 1755658753704_127.0.0.1_64868
+
+2025-08-20 11:04:00,487 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 1755658753704_127.0.0.1_64868
+
+2025-08-20 11:04:00,504 INFO Client connection 1755658753704_127.0.0.1_64868 disconnect, remove instances and subscribers
+
+2025-08-20 11:04:28,305 INFO Client connection 1755659068268_127.0.0.1_49518 connect
+
+2025-08-20 11:04:28,325 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, 1755659068268_127.0.0.1_49518
+
+2025-08-20 11:04:39,561 INFO Client connection 1755659079526_127.0.0.1_49566 connect
+
+2025-08-20 11:04:39,574 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 1755659079526_127.0.0.1_49566
+
+2025-08-20 11:04:42,502 INFO Client connection 1755659082468_127.0.0.1_49581 connect
+
+2025-08-20 11:04:42,517 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 1755659082468_127.0.0.1_49581
+
+2025-08-20 11:10:26,097 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=1}, 1755659068268_127.0.0.1_49518
+
+2025-08-20 11:10:26,101 INFO Client connection 1755659068268_127.0.0.1_49518 disconnect, remove instances and subscribers
+
+2025-08-20 11:11:57,461 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+
+2025-08-20 11:12:30,395 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 1755659079526_127.0.0.1_49566
+
+2025-08-20 11:12:30,400 INFO Client connection 1755659079526_127.0.0.1_49566 disconnect, remove instances and subscribers
+
+2025-08-20 11:12:30,839 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 1755659082468_127.0.0.1_49581
+
+2025-08-20 11:12:30,844 INFO Client connection 1755659082468_127.0.0.1_49581 disconnect, remove instances and subscribers
+
+2025-08-20 11:12:31,410 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-08-20 11:12:31,413 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
+2025-08-20 11:33:31,385 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-08-20 11:33:31,385 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-08-20 11:33:31,386 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-08-20 11:33:31,386 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-08-20 11:33:31,672 INFO Load instance extension handler []
+
+2025-08-20 11:33:34,939 INFO Client connection 1755660814764_127.0.0.1_56243 connect
+
+2025-08-20 11:33:35,003 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 1755660814764_127.0.0.1_56243
+
+2025-08-20 11:33:35,913 INFO Client connection 1755660815867_127.0.0.1_56249 connect
+
+2025-08-20 11:33:35,928 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 1755660815867_127.0.0.1_56249
+
+2025-08-20 11:34:19,920 INFO Client connection 1755660859882_127.0.0.1_56353 connect
+
+2025-08-20 11:34:19,933 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, 1755660859882_127.0.0.1_56353
+
+2025-08-20 11:34:28,385 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=1}, 1755660859882_127.0.0.1_56353
+
+2025-08-20 11:34:28,401 INFO Client connection 1755660859882_127.0.0.1_56353 disconnect, remove instances and subscribers
+
+2025-08-20 11:34:30,635 INFO Client connection 1755660870580_127.0.0.1_56416 connect
+
+2025-08-20 11:34:30,654 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=2}, 1755660870580_127.0.0.1_56416
+
+2025-08-20 11:34:59,509 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=3}, 1755660870580_127.0.0.1_56416
+
+2025-08-20 11:34:59,518 INFO Client connection 1755660870580_127.0.0.1_56416 disconnect, remove instances and subscribers
+
+2025-08-20 11:35:02,086 INFO Client connection 1755660902048_127.0.0.1_56567 connect
+
+2025-08-20 11:35:02,100 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=4}, 1755660902048_127.0.0.1_56567
+
+2025-08-20 13:09:38,909 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=5}, 1755660902048_127.0.0.1_56567
+
+2025-08-20 13:09:38,909 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 1755660814764_127.0.0.1_56243
+
+2025-08-20 13:09:38,909 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 1755660815867_127.0.0.1_56249
+
+2025-08-20 13:09:38,919 INFO Client connection 1755660902048_127.0.0.1_56567 disconnect, remove instances and subscribers
+
+2025-08-20 13:09:38,920 INFO Client connection 1755660815867_127.0.0.1_56249 disconnect, remove instances and subscribers
+
+2025-08-20 13:09:38,920 INFO Client connection 1755660814764_127.0.0.1_56243 disconnect, remove instances and subscribers
+
+2025-08-20 13:09:42,627 INFO Client connection 1755666582577_127.0.0.1_54097 connect
+
+2025-08-20 13:09:42,647 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 1755666582577_127.0.0.1_54097
+
+2025-08-20 13:09:43,490 INFO Client connection 1755666583451_127.0.0.1_54106 connect
+
+2025-08-20 13:09:43,504 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 1755666583451_127.0.0.1_54106
+
+2025-08-20 13:09:44,726 INFO Client connection 1755666584689_127.0.0.1_54111 connect
+
+2025-08-20 13:09:44,736 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=6}, 1755666584689_127.0.0.1_54111
+
+2025-08-20 13:19:42,442 INFO Client connection 1755667182415_127.0.0.1_56281 connect
+
+2025-08-20 13:19:42,453 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 1755667182415_127.0.0.1_56281
+
+2025-08-20 13:20:07,538 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, 1755667182415_127.0.0.1_56281
+
+2025-08-20 13:20:07,547 INFO Client connection 1755667182415_127.0.0.1_56281 disconnect, remove instances and subscribers
+
+2025-08-20 13:20:19,925 INFO Client connection 1755667219897_127.0.0.1_56398 connect
+
+2025-08-20 13:20:19,935 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}, 1755667219897_127.0.0.1_56398
+
+2025-08-20 13:20:57,232 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, 1755666583451_127.0.0.1_54106
+
+2025-08-20 13:20:57,243 INFO Client connection 1755666583451_127.0.0.1_54106 disconnect, remove instances and subscribers
+
+2025-08-20 13:21:09,318 INFO Client connection 1755667269286_127.0.0.1_56662 connect
+
+2025-08-20 13:21:09,330 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=7}, 1755667269286_127.0.0.1_56662
+
+2025-08-20 14:16:59,624 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 1755666582577_127.0.0.1_54097
+
+2025-08-20 14:16:59,637 INFO Client connection 1755666582577_127.0.0.1_54097 disconnect, remove instances and subscribers
+
+2025-08-20 14:17:07,709 INFO Client connection 1755670627679_127.0.0.1_63950 connect
+
+2025-08-20 14:17:07,732 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 1755670627679_127.0.0.1_63950
+
+2025-08-20 14:21:24,475 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 1755670627679_127.0.0.1_63950
+
+2025-08-20 14:21:24,481 INFO Client connection 1755670627679_127.0.0.1_63950 disconnect, remove instances and subscribers
+
+2025-08-20 14:21:30,510 INFO Client connection 1755670890478_127.0.0.1_64662 connect
+
+2025-08-20 14:21:30,521 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, 1755670890478_127.0.0.1_64662
+
+2025-08-20 14:22:33,127 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=7}, 1755670890478_127.0.0.1_64662
+
+2025-08-20 14:22:33,132 INFO Client connection 1755670890478_127.0.0.1_64662 disconnect, remove instances and subscribers
+
+2025-08-20 14:24:02,232 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2025-08-20 22:57:03,396 INFO Client connection 1755667269286_127.0.0.1_56662 disconnect, remove instances and subscribers
+
+2025-08-20 22:57:03,421 INFO Client connection 1755701823419_127.0.0.1_62136 connect
+
+2025-08-20 22:57:04,312 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=9}, 1755701823419_127.0.0.1_62136
+
+2025-08-20 23:29:41,827 INFO Client connection 1755701823419_127.0.0.1_62136 disconnect, remove instances and subscribers
+
+2025-08-20 23:29:41,831 INFO Client connection 1755703781830_127.0.0.1_62267 connect
+
+2025-08-20 23:29:42,767 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=11}, 1755703781830_127.0.0.1_62267
+
+2025-08-20 23:45:54,952 INFO Client connection 1755703781830_127.0.0.1_62267 disconnect, remove instances and subscribers
+
+2025-08-20 23:45:54,962 INFO Client connection 1755704754958_127.0.0.1_62385 connect
+
+2025-08-20 23:45:55,863 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=13}, 1755704754958_127.0.0.1_62385
+

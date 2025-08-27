@@ -1,0 +1,36 @@
+2025-08-20 11:34:34,521 INFO [PUSH-SUCC] 9ms, all delay time 531ms for subscriber 192.168.31.73, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2025-08-20 11:35:06,680 INFO [PUSH-SUCC] 4ms, all delay time 509ms for subscriber 192.168.31.73, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2025-08-20 11:35:06,893 INFO [PUSH-SUCC] 9ms, all delay time 537ms for subscriber 192.168.31.73, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2025-08-20 13:20:42,970 INFO [PUSH-SUCC] 5ms, all delay time 604ms for subscriber 192.168.31.73, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2025-08-20 13:20:43,075 INFO [PUSH-SUCC] 5ms, all delay time 549ms for subscriber 192.168.31.73, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2025-08-20 13:20:57,788 INFO [PUSH-SUCC] 9ms, all delay time 555ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 13:21:09,932 INFO [PUSH-SUCC] 16ms, all delay time 602ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=192.168.31.73
+
+2025-08-20 14:17:00,235 INFO [PUSH-SUCC] 10ms, all delay time 610ms, SLA 610ms, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.31.73
+
+2025-08-20 14:17:08,290 INFO [PUSH-SUCC] 4ms, all delay time 558ms, SLA 558ms, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 14:21:25,059 INFO [PUSH-SUCC] 15ms, all delay time 583ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.31.73
+
+2025-08-20 14:21:31,039 INFO [PUSH-SUCC] 7ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 14:22:33,720 INFO [PUSH-SUCC] 7ms, all delay time 592ms, SLA 592ms, Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.31.73
+
+2025-08-20 22:57:03,960 INFO [PUSH-SUCC] 23ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 22:57:04,891 INFO [PUSH-SUCC] 6ms, all delay time 579ms, SLA 579ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=10}, originalSize=2, DataSize=2, target=192.168.31.73
+
+2025-08-20 23:29:42,358 INFO [PUSH-SUCC] 7ms, all delay time 531ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 23:29:43,306 INFO [PUSH-SUCC] 5ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=12}, originalSize=2, DataSize=2, target=192.168.31.73
+
+2025-08-20 23:45:55,499 INFO [PUSH-SUCC] 6ms, all delay time 547ms, SLA 547ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.31.73
+
+2025-08-20 23:45:56,438 INFO [PUSH-SUCC] 6ms, all delay time 575ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=14}, originalSize=2, DataSize=2, target=192.168.31.73
+
